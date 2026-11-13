@@ -1,0 +1,11 @@
+id,question,result_first_draft,seconds_first_draft,result_after_review,seconds_after_review
+Q1,Monthly net revenue = completed order amount minus refunds on those or...,value_mismatch in net_revenue,0.006,PASS,0.011
+Q2,How many customers have at least 2 completed orders? (Orders with no c...,value_mismatch in customers,0.004,PASS,0.009
+Q3,Average completed-order value by customer country (exclude guest order...,PASS,0.007,PASS,0.005
+Q4,Top 5 products by revenue (qty x price) on completed orders.,value_mismatch in product_id,0.003,PASS,0.004
+Q5,"Monthly refund rate = refunded amount / completed order amount, by mon...",value_mismatch in refund_rate,0.006,PASS,0.008
+Q6,By signup month: share of customers with a completed order who placed ...,value_mismatch in repeat_rate,0.012,PASS,0.009
+Q7,Median days between a customer's first and second completed order (cus...,PASS,0.013,PASS,0.01
+Q8,Completed orders and revenue by customer plan (exclude guest orders).,PASS,0.008,PASS,0.008
+Q9,"Of customers whose FIRST completed order had a discount (>0), how many...",value_mismatch in customers,0.007,PASS,0.011
+Q10,Share of customers (with at least 1 completed order) whose second comp...,PASS,0.023,PASS,0.02
